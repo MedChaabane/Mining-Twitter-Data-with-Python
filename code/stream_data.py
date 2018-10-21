@@ -4,11 +4,11 @@ import json
 
 import re
 
-
-consumer_key = 't4SBQkzMR1CgFbxbWUdyvvmKd'
-consumer_secret = 'ASBlfYZEGCRypvYTli1OrZhz59yp9pJabkT4An0YeTmMwaoNU5'
-access_token = '2913366549-Ds5wg5HTRqLvxrINiree00W4rp9qkXzWK0wjASj'
-access_secret = 'PX3cyiZi5WEzwzcUVIJgyXKyhom7rvM4CUj1elloSgTwB'
+## you need to fill these info:
+consumer_key = '******'
+consumer_secret = '******'
+access_token = '******'
+access_secret = '******'
  
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
